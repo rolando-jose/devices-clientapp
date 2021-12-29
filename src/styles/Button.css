@@ -1,0 +1,16 @@
+.button {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    user-select: none;
+    margin: 2px;
+}
+
+.icon {
+    margin-left: 5px;
+}

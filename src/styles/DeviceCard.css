@@ -1,0 +1,40 @@
+.card{
+    border: #dcdbe1 1px solid;
+    border-radius: 5px;
+    margin: 1%;
+    width: 70%;
+    display: grid;
+    padding: 1%;
+    grid-template-columns: 1fr repeat(3, auto);
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+
+.card > h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.card > p {
+    color: #3f3f3f;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    word-break: break-all;
+}
+
+.card > h2>i {
+    padding-right: 10px;
+}
+
+@media (max-width: 1000px) {
+    .card{
+        border: darkgrey 1px solid;
+        border-radius: 5px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 5px;
+    }
+}

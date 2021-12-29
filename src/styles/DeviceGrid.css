@@ -1,0 +1,7 @@
+.devices-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    justify-items: center;
+    width: 100%;
+}
